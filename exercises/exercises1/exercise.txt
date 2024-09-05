@@ -1,0 +1,20 @@
+
+Task: Implementing a Documents Management System with Prototype-Clones.
+
+You will be working on a document management system that will manage various types of documents, including reports, contracts and presentations.
+To increase efficiency, a prototype design pattern is to be implemented so that new documents can be created by cloning existing templates (Objects).
+
+
+1.  Implement an abstract class `Document` that contains an abstract method `clone()`.
+    Implement a suitable constructor.
+    The document type 'type' is to be specified in the 'Document'. Implement getters and setters for this.
+
+2.  Create the classes 'Report', 'Presentation' and 'Contract'. These classes inherit from 'Document'.
+    Implement constructors in the classes.
+    The public arguments 'title', 'content' and 'author' should be instantiated in each classes.
+
+3.  Create a main() function. Create template objects for the classes 'Report', 'Presentation' and 'Contract', instantiate the arguments. Set on each Object the Document Type.
+    Output the arguments and document types in the terminal
+
+4.  Create a new object with a template object. Change the arguments and the document type and create an output again.
+
